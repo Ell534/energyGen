@@ -10,7 +10,7 @@ export default function ViewChoice() {
             <button className="px-8 py-4 rounded-md">
                 <p>Generation</p>
             </button>
-            <button className="px-8 py-4 rounded-md">
+            <button className="px-8 py-4 rounded-md border-[2px] border-amber-950 border-solid bg-slate-600">
                 <p>Carbon Intensity</p>
             </button>
         </div>
