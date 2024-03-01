@@ -6,7 +6,7 @@ function App() {
 
 
     return (
-        <main className='min-h-screen flex flex-col bg-[#2e2938] text-[#efb215] text-sm sm:text-base'>
+        <main className='min-h-screen flex flex-col bg-[#114232] text-[#fcdc2a] text-sm sm:text-base'>
             <ViewChoice />
             <Generation />
             <CarbonIntensity />

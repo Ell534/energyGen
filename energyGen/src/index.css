@@ -1,7 +1,23 @@
+/* colours: 
+text=#fcdc2a
+dark=#114232
+med-dark=#87a922
+med-light=#fcdc2a
+light=#f7f6bb
+*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
     font-family: 'Urbanist', sans-serif;
+}
+
+.greenShadow {
+    box-shadow: 3px 3px 0 0 #f7f6bb;
+}
+.greenShadow:hover{
+    transform: translate(-3px, -3px);
+    box-shadow: 6px 6px 0 0 #f7f6bb;
 }
