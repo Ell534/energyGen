@@ -1,8 +1,11 @@
 import React from 'react';
 
-export default function Generation() {
+export default function Generation({ setView }) {
     return (
-        <div className="min-h-screen flex flex-col gap-10 items-center justify-center text-center max-w-[900px] w-full mx-auto">
+        <div className="min-h-screen flex flex-col gap-10 items-center justify-center text-center max-w-[800px] w-full mx-auto">
+            <button onClick={() => setView('home')} className="px-8 py-2 rounded-2xl bg-[#87a922] text-[#114232] greenShadow duration-200">
+                <p>Home <i className="fa-solid fa-bolt"></i></p>
+            </button>
             <p className="uppercase font-semibold text-lg sm:text-xl md:text-2xl lg:text-3xl">
                 This will display energy generation information from the API
             </p>
